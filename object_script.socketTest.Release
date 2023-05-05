@@ -1,0 +1,11 @@
+release/main.o
+release/TXDatasForm.o
+release/mainwindow.o
+release/utilCommTools.o
+release/utilUIElement.o
+release/utilSocket.o
+release/moc_mainwindow.o
+release/moc_TXDatasForm.o
+release/moc_utilSocket.o
+release/moc_utilCommTools.o
+release/moc_utilUiElement.o

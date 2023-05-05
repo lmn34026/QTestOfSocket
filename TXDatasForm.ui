@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>TXDatasForm</class>
+ <widget class="QDialog" name="TXDatasForm">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>465</width>
+    <height>518</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QWidget" name="gridLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>441</width>
+     <height>491</height>
+    </rect>
+   </property>
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="5" column="0">
+     <widget class="QLineEdit" name="leTXData6"/>
+    </item>
+    <item row="9" column="0">
+     <widget class="QLineEdit" name="leTXData10"/>
+    </item>
+    <item row="1" column="0">
+     <widget class="QLineEdit" name="leTXData2"/>
+    </item>
+    <item row="7" column="0">
+     <widget class="QLineEdit" name="leTXData8"/>
+    </item>
+    <item row="8" column="0">
+     <widget class="QLineEdit" name="leTXData9"/>
+    </item>
+    <item row="2" column="0">
+     <widget class="QLineEdit" name="leTXData3"/>
+    </item>
+    <item row="4" column="0">
+     <widget class="QLineEdit" name="leTXData5"/>
+    </item>
+    <item row="0" column="0">
+     <widget class="QLineEdit" name="leTXData1"/>
+    </item>
+    <item row="3" column="0">
+     <widget class="QLineEdit" name="leTXData4"/>
+    </item>
+    <item row="6" column="0">
+     <widget class="QLineEdit" name="leTXData7"/>
+    </item>
+    <item row="0" column="1">
+     <widget class="QPushButton" name="btnTXData1">
+      <property name="text">
+       <string>TX-1</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="1">
+     <widget class="QPushButton" name="btnTXData2">
+      <property name="text">
+       <string>PushButton</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="1">
+     <widget class="QPushButton" name="btnTXData3">
+      <property name="text">
+       <string>PushButton</string>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="1">
+     <widget class="QPushButton" name="btnTXData4">
+      <property name="text">
+       <string>PushButton</string>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="1">
+     <widget class="QPushButton" name="btnTXData5">
+      <property name="text">
+       <string>PushButton</string>
+      </property>
+     </widget>
+    </item>
+    <item row="5" column="1">
+     <widget class="QPushButton" name="btnTXData6">
+      <property name="text">
+       <string>PushButton</string>
+      </property>
+     </widget>
+    </item>
+    <item row="6" column="1">
+     <widget class="QPushButton" name="btnTXData7">
+      <property name="text">
+       <string>PushButton</string>
+      </property>
+     </widget>
+    </item>
+    <item row="7" column="1">
+     <widget class="QPushButton" name="btnTXData8">
+      <property name="text">
+       <string>PushButton</string>
+      </property>
+     </widget>
+    </item>
+    <item row="8" column="1">
+     <widget class="QPushButton" name="btnTXData9">
+      <property name="text">
+       <string>PushButton</string>
+      </property>
+     </widget>
+    </item>
+    <item row="9" column="1">
+     <widget class="QPushButton" name="btnTXData10">
+      <property name="text">
+       <string>PushButton</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

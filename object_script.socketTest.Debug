@@ -1,0 +1,11 @@
+debug/main.o
+debug/TXDatasForm.o
+debug/mainwindow.o
+debug/utilCommTools.o
+debug/utilUIElement.o
+debug/utilSocket.o
+debug/moc_mainwindow.o
+debug/moc_TXDatasForm.o
+debug/moc_utilSocket.o
+debug/moc_utilCommTools.o
+debug/moc_utilUiElement.o

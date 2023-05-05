@@ -1,0 +1,168 @@
+/********************************************************************************
+** Form generated from reading UI file 'mainwindow.ui'
+**
+** Created by: Qt User Interface Compiler version 4.8.7
+**
+** WARNING! All changes made in this file will be lost when recompiling UI file!
+********************************************************************************/
+
+#ifndef UI_MAINWINDOW_H
+#define UI_MAINWINDOW_H
+
+#include <QtCore/QVariant>
+#include <QtGui/QAction>
+#include <QtGui/QApplication>
+#include <QtGui/QButtonGroup>
+#include <QtGui/QComboBox>
+#include <QtGui/QHeaderView>
+#include <QtGui/QLabel>
+#include <QtGui/QLineEdit>
+#include <QtGui/QMainWindow>
+#include <QtGui/QPlainTextEdit>
+#include <QtGui/QPushButton>
+#include <QtGui/QVBoxLayout>
+#include <QtGui/QWidget>
+#include "utilUiElement.h"
+
+QT_BEGIN_NAMESPACE
+
+class Ui_MainWindow
+{
+public:
+    QWidget *centralWidget;
+    QPlainTextEdit *teLog;
+    QWidget *verticalLayoutWidget;
+    QVBoxLayout *verticalLayout;
+    QLabel *lbLocalIP;
+    QComboBoxPlus *cbbLocalIP;
+    QLabel *lbLocalPort;
+    QLineEdit *leLocalPort;
+    QLabel *lbRemoteIP;
+    QLineEdit *leRemoteIP;
+    QLabel *lbRemotePort;
+    QLineEdit *leRemotePort;
+    QPushButton *btnOC;
+    QComboBox *cbbModeSelect;
+    QWidget *verticalLayoutWidget_2;
+    QVBoxLayout *verticalLayout_2;
+    QPlainTextEdit *teTXData;
+    QComboBox *cbbTXEndWith;
+    QPushButton *btnTX;
+
+    void setupUi(QMainWindow *MainWindow)
+    {
+        if (MainWindow->objectName().isEmpty())
+            MainWindow->setObjectName(QString::fromUtf8("MainWindow"));
+        MainWindow->resize(844, 566);
+        centralWidget = new QWidget(MainWindow);
+        centralWidget->setObjectName(QString::fromUtf8("centralWidget"));
+        teLog = new QPlainTextEdit(centralWidget);
+        teLog->setObjectName(QString::fromUtf8("teLog"));
+        teLog->setGeometry(QRect(310, 50, 511, 481));
+        teLog->setLineWrapMode(QPlainTextEdit::WidgetWidth);
+        verticalLayoutWidget = new QWidget(centralWidget);
+        verticalLayoutWidget->setObjectName(QString::fromUtf8("verticalLayoutWidget"));
+        verticalLayoutWidget->setGeometry(QRect(10, 90, 291, 241));
+        verticalLayout = new QVBoxLayout(verticalLayoutWidget);
+        verticalLayout->setSpacing(6);
+        verticalLayout->setContentsMargins(11, 11, 11, 11);
+        verticalLayout->setObjectName(QString::fromUtf8("verticalLayout"));
+        verticalLayout->setContentsMargins(0, 0, 0, 0);
+        lbLocalIP = new QLabel(verticalLayoutWidget);
+        lbLocalIP->setObjectName(QString::fromUtf8("lbLocalIP"));
+
+        verticalLayout->addWidget(lbLocalIP);
+
+        cbbLocalIP = new QComboBoxPlus(verticalLayoutWidget);
+        cbbLocalIP->setObjectName(QString::fromUtf8("cbbLocalIP"));
+        cbbLocalIP->setEditable(true);
+
+        verticalLayout->addWidget(cbbLocalIP);
+
+        lbLocalPort = new QLabel(verticalLayoutWidget);
+        lbLocalPort->setObjectName(QString::fromUtf8("lbLocalPort"));
+
+        verticalLayout->addWidget(lbLocalPort);
+
+        leLocalPort = new QLineEdit(verticalLayoutWidget);
+        leLocalPort->setObjectName(QString::fromUtf8("leLocalPort"));
+
+        verticalLayout->addWidget(leLocalPort);
+
+        lbRemoteIP = new QLabel(verticalLayoutWidget);
+        lbRemoteIP->setObjectName(QString::fromUtf8("lbRemoteIP"));
+
+        verticalLayout->addWidget(lbRemoteIP);
+
+        leRemoteIP = new QLineEdit(verticalLayoutWidget);
+        leRemoteIP->setObjectName(QString::fromUtf8("leRemoteIP"));
+
+        verticalLayout->addWidget(leRemoteIP);
+
+        lbRemotePort = new QLabel(verticalLayoutWidget);
+        lbRemotePort->setObjectName(QString::fromUtf8("lbRemotePort"));
+
+        verticalLayout->addWidget(lbRemotePort);
+
+        leRemotePort = new QLineEdit(verticalLayoutWidget);
+        leRemotePort->setObjectName(QString::fromUtf8("leRemotePort"));
+
+        verticalLayout->addWidget(leRemotePort);
+
+        btnOC = new QPushButton(centralWidget);
+        btnOC->setObjectName(QString::fromUtf8("btnOC"));
+        btnOC->setGeometry(QRect(10, 360, 289, 23));
+        cbbModeSelect = new QComboBox(centralWidget);
+        cbbModeSelect->setObjectName(QString::fromUtf8("cbbModeSelect"));
+        cbbModeSelect->setGeometry(QRect(10, 50, 289, 20));
+        verticalLayoutWidget_2 = new QWidget(centralWidget);
+        verticalLayoutWidget_2->setObjectName(QString::fromUtf8("verticalLayoutWidget_2"));
+        verticalLayoutWidget_2->setGeometry(QRect(10, 410, 281, 131));
+        verticalLayout_2 = new QVBoxLayout(verticalLayoutWidget_2);
+        verticalLayout_2->setSpacing(6);
+        verticalLayout_2->setContentsMargins(11, 11, 11, 11);
+        verticalLayout_2->setObjectName(QString::fromUtf8("verticalLayout_2"));
+        verticalLayout_2->setContentsMargins(0, 0, 0, 0);
+        teTXData = new QPlainTextEdit(verticalLayoutWidget_2);
+        teTXData->setObjectName(QString::fromUtf8("teTXData"));
+
+        verticalLayout_2->addWidget(teTXData);
+
+        cbbTXEndWith = new QComboBox(verticalLayoutWidget_2);
+        cbbTXEndWith->setObjectName(QString::fromUtf8("cbbTXEndWith"));
+
+        verticalLayout_2->addWidget(cbbTXEndWith);
+
+        btnTX = new QPushButton(verticalLayoutWidget_2);
+        btnTX->setObjectName(QString::fromUtf8("btnTX"));
+
+        verticalLayout_2->addWidget(btnTX);
+
+        MainWindow->setCentralWidget(centralWidget);
+
+        retranslateUi(MainWindow);
+
+        QMetaObject::connectSlotsByName(MainWindow);
+    } // setupUi
+
+    void retranslateUi(QMainWindow *MainWindow)
+    {
+        MainWindow->setWindowTitle(QApplication::translate("MainWindow", "MainWindow", 0, QApplication::UnicodeUTF8));
+        lbLocalIP->setText(QApplication::translate("MainWindow", "LocalIP", 0, QApplication::UnicodeUTF8));
+        lbLocalPort->setText(QApplication::translate("MainWindow", "LocalPort", 0, QApplication::UnicodeUTF8));
+        leLocalPort->setText(QString());
+        lbRemoteIP->setText(QApplication::translate("MainWindow", "Remote IP:", 0, QApplication::UnicodeUTF8));
+        lbRemotePort->setText(QApplication::translate("MainWindow", "Remote Port:", 0, QApplication::UnicodeUTF8));
+        btnOC->setText(QApplication::translate("MainWindow", "PushButton", 0, QApplication::UnicodeUTF8));
+        btnTX->setText(QApplication::translate("MainWindow", "Send", 0, QApplication::UnicodeUTF8));
+    } // retranslateUi
+
+};
+
+namespace Ui {
+    class MainWindow: public Ui_MainWindow {};
+} // namespace Ui
+
+QT_END_NAMESPACE
+
+#endif // UI_MAINWINDOW_H
